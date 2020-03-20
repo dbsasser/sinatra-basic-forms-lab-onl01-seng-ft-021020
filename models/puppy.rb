@@ -5,9 +5,9 @@ class Puppy
   attr_reader :breed
 
   def initialize(hash)
-    @name = hash[name]
-    @breed = hash[breed]
-    @age = hash[age]
+    @name = hash[:name]
+    @breed = hash[:breed]
+    @age = hash[:age]
   end
 
 end
